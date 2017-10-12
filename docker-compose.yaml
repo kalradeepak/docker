@@ -22,7 +22,7 @@ services:
         ports:
         - 8090:8090
         - 8075:8075
-        - 8080:8080
+        - 8081:8081
         - 8065:8065
         environment:
         - START_BACKOFF_SECS=60 # starts after Cassandra cluster and 60s after previous instance
